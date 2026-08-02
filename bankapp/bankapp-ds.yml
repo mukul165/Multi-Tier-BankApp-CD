@@ -39,7 +39,7 @@ metadata:
 spec:
   accessModes:
     - ReadWriteOnce
-  storageClassName: ebs-sc
+  storageClassName: standard-rwo
   resources:
     requests:
       storage: 5Gi
