@@ -11,7 +11,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: bankapp.testcx.com
+    - host: bankapp.testscx.com
       http:
         paths:
           - path: /
