@@ -62,7 +62,7 @@ spec:
         app: mysql
     spec:
       containers:
-      - image: mysql:8
+      - image: mukul197/bankapp:v75
         name: mysql
         resources:
           requests:
@@ -134,7 +134,7 @@ spec:
     spec:
       containers:
       - name: bankapp
-        image: mukul197/bankapp:v68
+        image: mukul197/bankapp:v75
         resources:
           requests:
             memory: "256Mi"
